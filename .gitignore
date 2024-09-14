@@ -1,0 +1,77 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IDE related
+*.iml
+*.ipr
+*.iws
+.idea/
+# Uncomment if you want to ignore all of .vscode except specific files
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/extensions.json
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+.pub/
+build/
+app.*.symbols
+app.*.map.json
+
+# Android specific
+android/.gradle/
+android/captures/
+android/local.properties
+android/.idea/
+android/*.iml
+android/app/debug/
+android/app/profile/
+android/app/release/
+
+# iOS specific
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Flutter/App.framework
+ios/Flutter/engine/
+ios/Flutter/flutter_export_environment.sh
+
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Backup and temporary files
+*.bak
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Lock files
+*.lock
+*.seed
+*.backup
+
+# Coverage and report directories
+coverage/
+reports/
+
+test
